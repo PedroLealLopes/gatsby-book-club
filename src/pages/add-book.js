@@ -13,7 +13,7 @@ const SuccessMessage = styled.div`
 `
 
 let fileReader;
-if(typeof windows !== 'undefined'){
+if(typeof window !== 'undefined'){
   fileReader = new FileReader();
 }
 
